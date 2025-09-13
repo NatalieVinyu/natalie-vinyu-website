@@ -11,8 +11,8 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href='#services'>
-                Services
+              <a href='#skills'>
+                Skills
               </a>
             </li>
             <li>

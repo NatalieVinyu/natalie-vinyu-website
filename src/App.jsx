@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from "./Components/nav"
 import Footer from "./Components/footer"
 import Home from "./Pages/Homepage"
+import About from "./Pages/About"
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <>
     <Navbar />
     <Home />
-    <h1 className='text-8xl font-bold'>Index</h1>
+    <About />
     <Footer />
     </>
   )
