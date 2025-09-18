@@ -5,18 +5,18 @@ export default function Homepage() {
     <div className='flex items-center justify-center min-h-screen'>
 
         <div className='container'>
-          <div class="grid grid-flow-col grid-rows-2 gap-4">
-            <div class="row-span-3">
-              <img src="/IMG_2575.jpeg" alt="Natalie Vinyu" className='rounded-lg shadow-lg w-80 max-w-sm' />
-            </div>
+          <div className="grid grid-cols-2">
 
-            <div class="col-span-2">
+            <div className="">
               <h1 className='text-9xl'>Natalie Vinyu</h1>
             </div>
 
-            <div class="col-span-2 row-span-2">
+            <div className="justify-end">
               <h2 className='text-7xl'>Front-end developer</h2>
+              <p>Lets connect</p>
+              <p>Download CV</p>
             </div>
+
           </div>
         </div>
 
