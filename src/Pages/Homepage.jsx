@@ -9,10 +9,10 @@ export default function Homepage() {
 
         <div className="flex flex-col md:flex-row justify-center gap-6 mt-6">
           <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition cursor-pointer">
-            Let's Connect
+            Download CV
           </button>
           <a href="https://www.linkedin.com/in/natalie-vinyu" target='_blank' rel="noopener noreferrer" className="px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-100  transition cursor-pointer">
-            Download CV
+            Let's connect
           </a>
         </div>
       </div>
