@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div id='about' className='container mx-auto min-h-screen flex flex-col justify-center '>
-      <div className='bg-black'>
+    <div id='about' className='mx-auto min-h-screen flex flex-col justify-center bg-black'>
+      <div className='container'>
         <div className='text-white'>
         <h1 className='text-2xl'>About me</h1>
         <br />

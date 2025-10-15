@@ -2,22 +2,18 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div id="contact" className="mx-auto min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl p-8">
-        
-        {/* Left Section */}
-        <div className="flex flex-col justify-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Let’s work together!</h1>
-          <p className="text-gray-600">I’d love to hear from you. Fill out the form and I’ll get back to you as soon as possible.</p>
-        </div>
+    <div id="contact" className="mx-auto min-h-screen justify-center bg-black text-white">
+      <h1>Get In Touch</h1>
+        <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
 
-        {/* Right Section (Form) */}
-        <div>
-          <form className="bg-white shadow-md rounded-lg p-6">
+      <div className="w-full max-w-6xl p-8 text-white">
+        {/* (Form) */}
+        <div className=''>
+          <form className="shadow-md rounded-lg p-6">
             
             {/* Full Name */}
             <div className="mb-4">
-              <label htmlFor="fullname" className="block text-gray-700 font-medium">Full Name</label>
+              <label htmlFor="fullname" className="block font-medium">Full Name</label>
               <input
                 type="text"
                 id="fullname"
@@ -27,7 +23,7 @@ export default function Contact() {
 
             {/* Email */}
             <div className="mb-4">
-              <label htmlFor="email" className="block text-gray-700 font-medium">Email</label>
+              <label htmlFor="email" className="block font-medium">Email</label>
               <input
                 type="email"
                 id="email"
@@ -37,7 +33,7 @@ export default function Contact() {
 
             {/* Message */}
             <div className="mb-4">
-              <label htmlFor="message" className="block text-gray-700 font-medium">Message</label>
+              <label htmlFor="message" className="block font-medium">Message</label>
               <textarea 
                 id="message"
                 rows="4"
