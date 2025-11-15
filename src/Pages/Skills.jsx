@@ -1,6 +1,11 @@
 import React from 'react';
-
 export default function Skills() {
+  const skills = [
+    {
+      title: "",
+      
+    }
+  ]
   return (
     <div className='bg-black'>
       <div>
