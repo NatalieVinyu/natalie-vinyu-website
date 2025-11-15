@@ -15,13 +15,11 @@ export default function About() {
       description: "Building fast, optimized applications for the best user experience"
     }
   ]
-
-
   return (
     <section id='about' className='bg-black p-26'>
-      <div className="flex justify-center">
+      <div className="text-white flex flex-col items-center">
         <div className='text-white'>About Me</div>
-        <span className=''></span>
+        <div className='w-20 h-1 bg-white mt-2 rounded-full'></div>
       </div>
 
       <div className='justify-center text-white pt-12'>
