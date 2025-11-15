@@ -16,7 +16,7 @@ export default function Contact() {
   ]
   return (
     <section className='bg-black text-white pt-16'>
-      <div id="contact" className="max-w-4xl mx-auto relative z-10">
+      <div id="contact" className="max-w-4xl mx-auto relative">
         <div className="text-white flex flex-col items-center">
           <h1 className='text-2xl'>Get In Touch</h1>
           <div className='w-20 h-1 bg-white mt-2 rounded-full'></div>
