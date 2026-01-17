@@ -26,10 +26,12 @@ export default function Skills() {
             <div className='border-2 border-solid rounded-xl m-10 p-5' key={index}>
               <h3 className='text-2xl font-bold'>{item.title}</h3>
 
-              <ul className='list-none'>
-                {item.skills.map((skill, i) => (
-                <li key={i}>{skill}</li>
-              ))}</ul>
+                <ul className='flex flex-wrap space-x-4 list-none'>
+                  {item.skills.map((skill, i) => (
+                  <div className='border-2 border-solid rounded-full m-2 p-3'>
+                    <li key={i}>{skill}</li>
+                  </div>
+                ))}</ul>
         </div>
           ))}
         </div>
