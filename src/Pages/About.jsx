@@ -1,18 +1,23 @@
 import React from 'react';
+import { FaCode, BsStars, MdOutlineRocketLaunch } from "react-icons/fa";
+
 {/* CARD COMPONENT */}
 export default function About() {
   const highlights = [
     { 
       title: "Clean Code",
-      description: "Writing maintainable, scalable code that follows best practices"
+      description: "Writing maintainable, scalable code that follows best practices",
+      icon: <FaCode />
     },
     {
-      title: "Mordern Design",
-      description: "Creating beautiful interfaces with attention detail "
+      title: "Modern Design",
+      description: "Creating beautiful interfaces with attention detail",
+      icon: <BsStars />
     },
     {
       title: "Performance",
-      description: "Building fast, optimized applications for the best user experience"
+      description: "Building fast, optimized applications for the best user experience",
+      icon: <MdOutlineRocketLaunch />
     }
   ]
   return (
@@ -32,15 +37,20 @@ export default function About() {
         </div>
 
 
-        <div className='text-white '>
-          <div className=''>
+        <div className='items-start gap-4 text-white'>
             {highlights.map((item, index) => (
-              <div className='border-2 border-solid rounded-xl m-10 p-5 ' key={index}>
-               <h3 className=''>{item.title}</h3>
-               <p>{item.description}</p>
+              <div className='flex border-2 border-solid rounded-xl m-10 p-5' key={index}>
+
+                <div className='text-2xl align-center justify-center mr-4'>
+                  <p>{item.icon}</p>
+                </div>
+                
+                <div>
+                  <h3 className='text-lg font-semibold'>{item.title}</h3>
+                  <p className='text-grey-600'>{item.description}</p>
+                </div>
           </div>
            ))}
-          </div>
         </div>
      </div>
     
